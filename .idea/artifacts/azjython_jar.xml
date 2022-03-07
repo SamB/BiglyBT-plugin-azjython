@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="azjython:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/azjython_jar</output-path>
+    <root id="archive" name="azjython.jar">
+      <element id="module-output" name="azjython" />
+      <element id="file-copy" path="$PROJECT_DIR$/plugin.properties" />
+    </root>
+  </artifact>
+</component>
