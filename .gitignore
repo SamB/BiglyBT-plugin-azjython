@@ -236,3 +236,7 @@ dmypy.json
 # Cython debug symbols
 cython_debug/
 
+### Custom entries
+# These are fairly hairy, and nothing special yet anyway.
+/.idea/codeStyles/*
+/.idea/inspectionProfiles/*
