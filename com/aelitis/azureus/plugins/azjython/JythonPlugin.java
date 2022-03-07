@@ -3,12 +3,12 @@
  */
 package com.aelitis.azureus.plugins.azjython;
 
-import org.gudy.azureus2.plugins.Plugin;
-import org.gudy.azureus2.plugins.PluginException;
-import org.gudy.azureus2.plugins.PluginInterface;
+import com.biglybt.pif.Plugin;
+import com.biglybt.pif.PluginException;
+import com.biglybt.pif.PluginInterface;
 
-import org.gudy.azureus2.plugins.config.PluginConfigSource;
-import org.gudy.azureus2.plugins.ui.model.BasicPluginViewModel;
+import com.biglybt.pif.config.PluginConfigSource;
+import com.biglybt.pif.ui.model.BasicPluginViewModel;
 
 import com.aelitis.azureus.plugins.azjython.interactive.JythonCoreConsole;
 
@@ -55,7 +55,7 @@ public class JythonPlugin implements Plugin {
 		 * if users specifically request the ability to run scripts at startup (if they
 		 * really need it).
 		 */
-		org.gudy.azureus2.plugins.utils.DelayedTask dt = plugin_interface.getUtilities().createDelayedTask(new Runnable() {
+		com.biglybt.pif.utils.DelayedTask dt = plugin_interface.getUtilities().createDelayedTask(new Runnable() {
 			public void run() {
 				JythonPluginInitialiser jpi = new JythonPluginInitialiser(core);
 				boolean init_ok = jpi.initialiseJython(true);

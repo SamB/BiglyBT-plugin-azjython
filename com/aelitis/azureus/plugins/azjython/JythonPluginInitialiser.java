@@ -27,8 +27,8 @@ import java.lang.reflect.Field;
 import java.net.URL;
 import java.net.URLClassLoader;
 
-import org.gudy.azureus2.plugins.update.UpdateInstaller;
-import org.gudy.azureus2.plugins.update.UpdateManager;
+import com.biglybt.pif.update.UpdateInstaller;
+import com.biglybt.pif.update.UpdateManager;
 
 /**
  * @author Allan Crooks

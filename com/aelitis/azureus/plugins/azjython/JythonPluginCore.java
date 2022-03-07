@@ -23,9 +23,9 @@ package com.aelitis.azureus.plugins.azjython;
 
 import java.io.File;
 
-import org.gudy.azureus2.plugins.PluginInterface;
-import org.gudy.azureus2.plugins.logging.LoggerChannel;
-import org.gudy.azureus2.plugins.utils.LocaleUtilities;
+import com.biglybt.pif.PluginInterface;
+import com.biglybt.pif.logging.LoggerChannel;
+import com.biglybt.pif.utils.LocaleUtilities;
 
 // Maybe interpreter related parts need to be moved somewhere else.
 import com.aelitis.azureus.plugins.azjython.interactive.JythonCoreConsole;

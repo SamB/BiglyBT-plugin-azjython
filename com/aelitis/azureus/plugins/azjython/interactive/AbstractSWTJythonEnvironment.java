@@ -6,7 +6,7 @@ package com.aelitis.azureus.plugins.azjython.interactive;
 import com.aelitis.azureus.plugins.azjython.utils.DataSink;
 
 import org.eclipse.swt.widgets.Composite;
-import org.gudy.azureus2.ui.swt.plugins.UISWTInstance;
+import com.biglybt.ui.swt.pif.UISWTInstance;
 
 /**
  * @author Allan Crooks

@@ -11,15 +11,15 @@ import java.net.URL;
 import java.util.*;
 import java.util.jar.*;
 
-import org.gudy.azureus2.plugins.PluginInterface;
-import org.gudy.azureus2.plugins.ui.model.BasicPluginViewModel;
-import org.gudy.azureus2.plugins.ui.config.*;
+import com.biglybt.pif.PluginInterface;
+import com.biglybt.pif.ui.model.BasicPluginViewModel;
+import com.biglybt.pif.ui.config.*;
 //import org.gudy.azureus2.plugins.ui.config.ParameterListener;
-import org.gudy.azureus2.plugins.utils.resourcedownloader.ResourceDownloader;
-import org.gudy.azureus2.plugins.utils.resourcedownloader.ResourceDownloaderAdapter;
-import org.gudy.azureus2.plugins.utils.resourcedownloader.ResourceDownloaderException;
-import org.gudy.azureus2.plugins.utils.resourcedownloader.ResourceDownloaderFactory;
-import org.gudy.azureus2.ui.swt.plugins.UISWTInstance;
+import com.biglybt.pif.utils.resourcedownloader.ResourceDownloader;
+import com.biglybt.pif.utils.resourcedownloader.ResourceDownloaderAdapter;
+import com.biglybt.pif.utils.resourcedownloader.ResourceDownloaderException;
+import com.biglybt.pif.utils.resourcedownloader.ResourceDownloaderFactory;
+import com.biglybt.ui.swt.pif.UISWTInstance;
 
 /**
  * @author allan

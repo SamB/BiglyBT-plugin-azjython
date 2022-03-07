@@ -8,9 +8,9 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 
-import org.gudy.azureus2.plugins.Plugin;
-import org.gudy.azureus2.plugins.PluginException;
-import org.gudy.azureus2.plugins.PluginInterface;
+import com.biglybt.pif.Plugin;
+import com.biglybt.pif.PluginException;
+import com.biglybt.pif.PluginInterface;
 
 import com.aelitis.azureus.plugins.azjython.JythonPluginCore;
 import com.aelitis.azureus.plugins.azjython.utils.DataSink;

@@ -19,8 +19,8 @@ import org.eclipse.swt.widgets.Composite;
 import org.eclipse.swt.widgets.Event;
 import org.eclipse.swt.widgets.Listener;
 import org.eclipse.swt.layout.GridData;
-import org.gudy.azureus2.ui.swt.plugins.UISWTInputReceiver;
-import org.gudy.azureus2.ui.swt.plugins.UISWTInstance;
+import com.biglybt.ui.swt.pif.UISWTInputReceiver;
+import com.biglybt.ui.swt.pif.UISWTInstance;
 
 /**
  * @author Allan Crooks
@@ -132,7 +132,7 @@ public class SWTJythonConsole extends SWTJythonOutputWindow {
 			entry.setLineHeight(10);
 			entry.maintainWhitespace(true);
 			entry.setLocalisedTitle(getUIText("send_multi.input.title"));
-			entry.prompt();
+			entry.prompt(uiInputReceiver -> {}); // FIXME: is there something we must do here?
 			if (!entry.hasSubmittedInput()) {return;}
 			String input = entry.getSubmittedInput();
 			try {

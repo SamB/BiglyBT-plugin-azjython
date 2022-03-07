@@ -21,9 +21,9 @@
  */
 package com.aelitis.azureus.plugins.azjython;
 
-import org.gudy.azureus2.plugins.ui.model.*;
-import org.gudy.azureus2.plugins.ui.config.*;
-import org.gudy.azureus2.plugins.utils.LocaleUtilities;
+import com.biglybt.pif.ui.model.*;
+import com.biglybt.pif.ui.config.*;
+import com.biglybt.pif.utils.LocaleUtilities;
 import java.util.*;
 
 /**

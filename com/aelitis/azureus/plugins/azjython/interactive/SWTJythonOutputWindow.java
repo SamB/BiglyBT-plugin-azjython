@@ -17,7 +17,7 @@ import org.eclipse.swt.widgets.Display;
 import org.eclipse.swt.widgets.Label;
 import org.eclipse.swt.layout.GridData;
 import org.eclipse.swt.layout.GridLayout;
-import org.gudy.azureus2.ui.swt.plugins.UISWTInstance;
+import com.biglybt.ui.swt.pif.UISWTInstance;
 
 
 /**

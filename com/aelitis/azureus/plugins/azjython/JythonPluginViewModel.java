@@ -5,10 +5,10 @@ package com.aelitis.azureus.plugins.azjython;
 
 import java.io.PrintWriter;
 import java.io.StringWriter;
-import org.gudy.azureus2.plugins.logging.LoggerChannel;
-import org.gudy.azureus2.plugins.logging.LoggerChannelListener;
-import org.gudy.azureus2.plugins.ui.model.BasicPluginViewModel;
-import org.gudy.azureus2.plugins.ui.components.UITextArea;
+import com.biglybt.pif.logging.LoggerChannel;
+import com.biglybt.pif.logging.LoggerChannelListener;
+import com.biglybt.pif.ui.model.BasicPluginViewModel;
+import com.biglybt.pif.ui.components.UITextArea;
 
 /**
  * @author Allan Crooks

@@ -7,7 +7,7 @@ import com.aelitis.azureus.plugins.azjython.JythonPluginCore;
 
 import org.eclipse.swt.widgets.Composite;
 import java.util.*;
-import org.gudy.azureus2.ui.swt.plugins.*;
+import com.biglybt.ui.swt.pif.*;
 
 /**
  * @author Allan Crooks
