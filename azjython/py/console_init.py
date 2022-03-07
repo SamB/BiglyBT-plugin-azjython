@@ -49,7 +49,7 @@ env._ui_namespace = _ui_namespace
 del jstdout, jstderr, plugin_interface, swt_ui, _ui_namespace, InterpreterEnvironment
 
 # Quick access to classes in the plugin API.
-from org.gudy.azureus2 import plugins as api
+from com.biglybt import pif as api
     
 def azjython_help():
     trans = env.plugin_interface.getUtilities().getLocaleUtilities().localise
